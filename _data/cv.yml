@@ -15,7 +15,7 @@
       description:
         - GPA- 3.97/4
         - Depth area- Artificial Intelligence
-        - Courses taken
+        - title: Courses taken
           contents:
             - CSE 202- Algorithm Design and Analysis
             - CSE 239A- Seminar Topics in Databases
