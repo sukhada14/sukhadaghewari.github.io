@@ -2,31 +2,41 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Sukhada Vijay Ghewari
     - name: Languages
-      value: English, German
+      value: English, Marathi, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MS in Computer Scinece
+      institution: University of California, San Diego
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - GPA- 3.97/4
+        - Depth area- Artificial Intelligence
+        - Courses taken
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - CSE 202- Algorithm Design and Analysis
+            - CSE 239A- Seminar Topics in Databases
+            - CSE 240A- Principles in Computer Architecture
+            - CSE 250A- Probabilistic Reasoning and Learning
+            - CSE 291A- Security, Privacy, and UX
+            - CSE 255- Data Mining and Analytics
+            - ECE 228- Machine Learning for Physical Applications
+            - CSE 293- Graduate Student Researcher at Ideker Lab
+            - CSE 280A- Algorithms for Computational Biology
+            - CSE 251A- ML- Learning Algorithms
+            - CSE 258- Recommender System and Web Mining
+            - CSE 234- Data Systems for ML
+
+            
+    - title: Bacherlors in Computer Science
+      institution: Walchand College of Engineering, Sangli
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
+        - CGPA- 9.51/10
+        - Gold medalist of in CSE department of the batch 2019
 
 - title: Experience
   type: time_table
