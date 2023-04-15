@@ -123,7 +123,6 @@ blog_nav_title: blog # your blog must have a title for it to be displayed in the
 blog_description: A collection of my thoughs, opinions, tech blogs/tutorials.
 permalink: /blog/:year/:title/
 
-To be updated.
 
 # Pagination
 pagination:
