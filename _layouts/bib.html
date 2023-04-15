@@ -103,6 +103,7 @@
               "
           >{{more_authors_hide}}</span>
         {%- endif -%}
+        
 
         </div>
 
@@ -146,6 +147,9 @@
           {%- endif %}
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          {%- endif %}
+          {%- if entry.url %}
+          <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">Link</a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
@@ -229,5 +233,8 @@
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
+
+       
+
         </div>
       </div>
